@@ -1,6 +1,6 @@
 streamlit>=1.41
 ultralytics>=8.4.0
-opencv-python-headless>=4.10
+opencv-python>=4.10
 Pillow>=10.0
 numpy>=1.26
 pandas>=2.1
