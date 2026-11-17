@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+# Dataset and derived data are local; do not commit them.
+data/raw/
+data/processed/
+# Training outputs and model weights are large and separately licensed.
+runs/
+weights/*.pt
+*.onnx
+*.engine
+*.log
